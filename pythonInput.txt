@@ -1,0 +1,15 @@
+var = 10
+str1 = "enter a number\n>> "
+
+
+def get_int(prompt):
+    val = int(input(prompt))
+    if val != -1:
+        return val
+    else:
+        print("-1 is not accepted.")
+
+
+# now lets call the function
+var = get_int(str1)
+print(var)
